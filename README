@@ -1,0 +1,25 @@
+Solaris-ProcessMemory version 0.01
+==================================
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires the that 'pmap' command be installed on
+the system and in the path of the user that will be using this
+library.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2009 by Bob Stockdale
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.6 or,
+at your option, any later version of Perl 5 you may have available.
